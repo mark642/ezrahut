@@ -1,0 +1,400 @@
+body {
+  margin: 0;
+  font-family: 'Noto Sans Hebrew';
+}
+
+:root {
+  --border-color: 2px solid rgb(14, 127, 219);
+  --title-color: rgb(14, 127, 219);
+}
+
+div.nav {
+  height: 5rem;
+  box-shadow: 0px 0px 7px 2px #AAAAAA;
+}
+
+div.nav_bar__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+div.nav_bar__container1, 
+div.nav_bar__container2 {
+  display: flex;
+  justify-content: space-between;
+}
+
+div.main_title {
+  margin: 0 0.5rem;
+  color: var(--title-color);
+  font-size: 2.5rem;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+div.main_title img {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  margin-top: 1rem;
+}
+
+div.nav_bar__block {
+  margin: 1.5rem 2rem;
+}
+
+a.nav_bar__link {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  text-decoration: none;
+  color: var(--title-color);
+  font-size: 1.2rem;
+  transition: 0.2s;
+}
+
+a.nav_bar__link:hover {
+  color: rgb(2, 59, 164);
+  text-decoration: underline;
+}
+
+.intro {
+  margin: 2rem auto;
+  height: 25rem;
+  width: 70rem;
+  /* border: var(--border-color); */
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 5px #AAAAAA;
+}
+
+.intro .container {
+  display: flex;
+  direction: rtl;
+}
+
+.intro .container .text {
+  /* margin-right: 1rem; */
+  text-align: center;
+}
+
+.intro .container .text h2 {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-weight: 600;
+  color: var(--title-color);
+}
+
+.intro .container .text span {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-size: 1.2rem;
+}
+
+.intro img {
+  height: 25rem;
+  width: 35rem;
+  border-radius: 0 10px 10px 0;
+}
+
+.first_fund_cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.first_fund__title {
+  margin: 2rem 50%;
+}
+
+.first_fund__title span {
+  color: var(--title-color);
+  font-size: 2rem;
+}
+
+.first_fund_intro_container {
+  display: flex;
+  width: 45rem;
+  box-shadow: 0px 0px 7px 2px #AAAAAA;
+  margin-left: 2rem;
+  border-radius: 10px;
+}
+
+.first_fund_intro_container .first_fund_text_block {
+  width: 30rem;
+  height: 50rem;
+}
+
+.first_fund_text_block .first_fund_text {
+  direction: rtl;
+  margin-right: 1rem;
+  font-family: 'Noto Sans Hebrew';
+}
+
+.first_fund_text_block .first_fund_text h1 {
+  margin-top: 0;
+  color: var(--title-color);
+}
+
+.first_fund_text_block .first_fund_text p {
+  font-size: 1.3rem;
+}
+
+.first_fund_intro_container .first_fund_image_block img {
+  width: 30rem;
+  height: 50rem;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.grid_cards {
+  display: grid;
+  grid-template-columns: 20rem 20rem ;
+}
+
+.grid_cards .card {
+  width: 16rem;
+  box-shadow: 0px 0px 7px 2px #AAAAAA;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+  direction: rtl;
+}
+
+.grid_cards .card h2 {
+  text-align: center;
+  color: var(--title-color);
+  border-bottom: var(--border-color);
+  margin-top: 0.2rem;
+}
+
+.grid_cards .card p {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.grid_cards .card ul {
+  list-style-type: none;
+  padding-inline-start: 1rem;
+}
+
+.grid_cards  .card ul li {
+  margin: 0%;
+  font-size: 1.2rem;
+  font-family: 'Noto Sans Hebrew';
+}
+
+.second_fund .second_fund_main_title {
+  color: var(--title-color);
+  font-size: 2rem;
+  margin: 2rem 47%;
+}
+
+.second_fund .second_fund_title {
+  display: flex;
+  justify-content: center;
+}
+
+.second_fund .second_fund_title .second_fund_title_text {
+  direction: rtl;
+}
+
+.second_fund .second_fund_title .second_fund_title_text span {
+  font-family: 'Noto Sans Hebrew';
+  font-weight: 400;
+  font-size: 1.25rem;
+  font-weight: bolder;
+}
+
+.second_fund .second_fund_image_container {
+  display: flex;
+  justify-content: center;
+}
+
+.second_fund .second_fund_image_container .second_fund_image {
+  gap: 1rem;
+}
+
+.cont_container {
+  width: 48rem;
+  margin: 0 25%;
+  border-radius: 10px;
+  box-shadow: 0px 0px 7px 2px #AAAAAA;
+  padding: 0 1rem;
+}
+
+.cont_container_text {
+  direction: rtl;
+  font-size: 1.5rem;
+}
+
+
+.second_fund_bottom_image_container {
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.second_fund_bottom_image_container img {
+  height: 30rem;
+  width: 30rem;
+  border-radius: 5px;
+}
+
+.third_fund {
+  margin-top: 2rem;
+}
+
+.third_fund_main_title {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+.third_fund_main_title .third_fund_main_title_text {
+  color: var(--title-color);
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.third_fund_undertitle_cont {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.third_fund_undertitle_cont .third_fund_undertitle_cont_text {
+  text-align: center;
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  color: gray;
+  font-size: 1.25rem;
+}
+
+.third_fund_main_cont_container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.third_fund_main_cont_container .third_fund_main_cont_text {
+  height: 20rem;
+  width: 35rem;
+}
+
+.third_fund_main_cont_container .third_fund_main_cont_text .third_fund_main_cont_text__text {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-size: 1.1rem;
+  direction: rtl;
+}
+
+.third_fund_main_cont_container .third_fund_main_cont_image {
+  height: 20rem;
+  width: 35rem;
+}
+
+.third_fund_main_cont_container .third_fund_main_cont_image img {
+  height: 20rem;
+  width: 35rem;
+  border-radius: 5px;
+}
+
+.third_fund_container .third_fund_cont_container {
+  display: flex;
+  justify-content: space-evenly;
+  direction: rtl;
+}
+
+.third_fund_container 
+.third_fund_cont_container 
+.third_fund_cont_conatiner_block1, 
+.third_fund_cont_conatiner_block2 {
+  height: 25rem;
+  width: 30rem;
+}
+
+.third_fund_container 
+.third_fund_cont_container 
+.third_fund_cont_conatiner_block1 .third_fund_cont_conatiner_block1_text, 
+.third_fund_cont_conatiner_block2 .third_fund_cont_conatiner_block2_text {
+  font-family: 'Noto Sans Hebrew', sans-serif;
+  font-size: 1.1rem;
+}
+
+.third_fund_container 
+.third_fund_cont_container 
+.third_fund_cont_conatiner_block1 .third_fund_cont_conatiner_block1_text h3, 
+.third_fund_cont_conatiner_block2 .third_fund_cont_conatiner_block2_text h3 {
+  color: var(--title-color);
+}
+
+.fourth_fund {
+  margin-top: 2rem;
+}
+
+.fourth_fund_main_title {
+  display: flex;
+  justify-content: center;
+  font-size: 2.5rem;
+  font-weight: 400;
+  margin-bottom: 2rem;
+}
+
+.fourth_fund_main_title .fourth_fund_main_title_text {
+  color: var(--title-color);
+  font-family: 'Noto Sans Hebrew', sans-serif;
+}
+
+.fourth_fund_intro_container {
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+  margin-bottom: 3rem;
+}
+
+.fourth_fund_intro_container .fourth_fund_intro_text {
+  width: 50%;
+  font-size: 1.25rem;
+  font-weight: 600;
+}
+
+.fourth_fund .fourth_fund_main_cont_container {
+  display: flex;
+  justify-content: center;
+  direction: rtl;
+}
+
+.fourth_fund .text_container, .image_container {
+  width: 24.33125rem;
+  margin-left: 2rem;
+  font-size: 1.1rem;
+}
+
+.fourth_fund .image_container img {
+  width: 24.33125rem;
+}
+
+.fourth_fund_cont_container {
+  width: 52rem;
+  display: flex;
+  margin: 2rem auto;
+  font-size: 1.1rem;
+  direction: rtl;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  height: 4rem;
+  margin-top: 1rem;
+}
+
+footer a {
+  font-size: 1.25rem;
+  text-decoration: none;
+  border: var(--border-color);
+  padding: 1rem 3rem;
+  border-radius: 2rem;
+  color: var(--title-color);
+  transition: 0.3s;
+}
+
+footer a:hover {
+  background-color: var(--title-color);
+  color: white;
+}
